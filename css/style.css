@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 /* globol */
 html{
     box-sizing: border-box;
@@ -16,6 +17,7 @@ body{
     height: 100%;
     padding: 0;
     margin: 0;
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     background-color: #fff;
@@ -28,7 +30,7 @@ img{
 
 /* conteiner */
 
-.conteiner{
+.container{
     width: 100%;
     max-width: 1200px;
     padding-left: 50px;
@@ -41,3 +43,67 @@ img{
 .main_content{
     flex-grow: 1;
 }
+
+.header {
+
+}
+.header-container{
+    background: #F6F6F6;
+}
+.header-logo-menu {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.header-logo {
+}
+.logo-text {
+    font-family: Rubik;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none;
+    color: #bf4646;
+}
+.come {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-decoration: none;
+    background: #bf4646;
+    color: #fff;
+    padding:13px 20px;
+    border-radius: 10%;
+
+}
+
+/* HEADER-NAV */
+.headr-nav {
+    
+}
+.header-nav__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom:30px;
+    border-bottom: 1px solid #D1D1D1;
+;
+}
+.header-nav__item {
+    list-style: none;
+}
+.header-nav__link{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    color: #7F7F7F;
+}
+
